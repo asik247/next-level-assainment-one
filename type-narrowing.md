@@ -73,13 +73,13 @@ Example:
 type Admin = {
   name: string;
   role: string;
-  id:number;
+  id: number;
 };
 
 type Customer = {
   name: string;
   purchase: number;
-  contace:number
+  contact: number
 };
 
 function showUser(user: Admin | Customer) {
